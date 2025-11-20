@@ -1,0 +1,28 @@
+{
+  "ID": "849",
+  "Game": "pax_ren",
+  "Test Description": "Testing winning conditions (Renaissance Victory). Test Vote Ops.",
+  "Difficulty Notes": "Strategy problem while testing winning conditions. Requires understanding game actions like Vote Ops. It is quite straighward to derive the winning strategy as the only missing part is the republic card.",
+  "Question": "Given the provided game state, how can the blue player win the game in 2 actions?\n**Please format your response as an ordered JSON list of actions. Each action should follow the format shown below:**\n\n```json\n[\n  {\n    \"action\": \"West Tableau Ops\"\n  },\n  {\n    \"action\": \"West Trade Fair\"\n  },\n  {\n    \"action\": \"Victory\"\n  }\n]\n```\n\n### Format Specifications:\n\nEach list item represents one **action** as a dictionary with the following keys:\n\n1. **\"action\"** (string):\n   Must be one of the following valid actions:\n   `[\"Purchase\", \"Play\", \"Sell\", \"West Tableau Ops\", \"East Tableau Ops\", \"West Trade Fair\", \"East Trade Fair\", \"Victory\"]`",
+  "Answer": [
+    {
+      "action": "West Tableau Ops"
+    },
+    {
+      "action": "Victory"
+    }
+  ],
+  "Answer_str": "1. West Tableau Ops --- launch Vote Ops against Papal States, Papal State regime change into Republic; 2. Declare Renaissance Victory/Globalization Victory.",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/pax_ren/217_1.png",
+    "gamestates/images/pax_ren/217_2.png",
+    "gamestates/images/pax_ren/217_3.png",
+    "gamestates/images/pax_ren/217_4.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "gamestates/json/pax_ren/217_combined.json"
+}

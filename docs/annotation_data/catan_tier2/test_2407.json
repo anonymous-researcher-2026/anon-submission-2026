@@ -1,0 +1,17 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many wool resource cards are present in the given image of the game state?",
+  "Answer": "1",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/player_red_1.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2407
+}

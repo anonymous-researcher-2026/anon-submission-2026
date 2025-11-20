@@ -1,0 +1,15 @@
+{
+  "ID": 202,
+  "Game": "Kingdomino",
+  "Test Description": "Assess basic optimization problems using small set of tiles.",
+  "Difficulty Notes": "Focusing on a subset of the score optimization problems. This time, giving it a score and asking it to derive the solution",
+  "Question": "What sets of two dominoes would combine to yield a score of 2? You may only select one domino per column. Output as Dominoes Combinations: List[Tuple(domino, domino)] e.g. [(A, E), (B,F), (B, H)]",
+  "Answer": "[(C,F), (C, E)]]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/t3_basic_cols.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 1,
+  "tier": 3,
+  "json_game_state_url": "gamestates/json/kingdomino/t3_basic_cols.json"
+}

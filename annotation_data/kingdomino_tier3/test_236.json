@@ -1,0 +1,14 @@
+{
+  "ID": 236,
+  "Game": "Kingdomino",
+  "Test Description": "Assessing ability to optimally plan over multiple steps of domino selection and placement",
+  "Question": "What next domino should the pink player select to maximize the score of their kingdom? Assume the game ends after placement of the pictured dominos. Output the following: Domino letter, 'Previous kingdom score', eventual 'New kingdom score' after placement of all of the shown/selected draftable dominos. If necessary, you may take/simulate other players' actions for them. You should assume that the other players will act cooperatively and will take actions to best-support maximizing your score. We are playing with the harmony and middle kingdom rules.",
+  "Answer": "Domino: H, Previous kingdom score: 17, New kingdom score: 36",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/t3_2_step_variant.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "gamestates/json/kingdomino/t3_2_step_variant.json"
+}

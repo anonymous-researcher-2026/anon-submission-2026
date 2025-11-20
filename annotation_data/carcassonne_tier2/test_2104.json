@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Considering that the placement of the tile and meeple in this turn is completed, during scoring of this turn, how many points will the blue player earn?",
+  "Answer": "10",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/meeple_landscape_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2104
+}

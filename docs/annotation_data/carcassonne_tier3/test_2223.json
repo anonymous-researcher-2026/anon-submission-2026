@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the yellow player's turn, which tile should the yellow player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. Assume that the yellow player does not have any meeples left to place on the landscape. return the answer in the following format: [total_points = <the maximum points by the end of this turn>]",
+  "Answer": "[total_points = 0]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2223
+}

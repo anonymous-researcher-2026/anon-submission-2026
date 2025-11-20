@@ -1,0 +1,17 @@
+{
+  "ID": 309,
+  "Game": "Res\u00a0Arcana",
+  "Tier": 1,
+  "Test Description": "Tests card readability, with orientation.",
+  "Difficulty Notes": "Very basic card reading.",
+  "Question": "How many cards are oriented sideways?",
+  "Answer": "Zero",
+  "Rationale": "",
+  "game_state_url": "images/res\u00a0arcana/t1_multi_card_pp.png",
+  "game_state_description": "",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": ""
+}

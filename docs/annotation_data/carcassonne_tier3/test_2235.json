@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "What is the largest field (in terms of tiles) can be formed by adding one more tile to the current landscape? Provide your answer in the format: [Tile = <chosen tile>, size = <number of tiles in the largest field>]",
+  "Answer": "[Tile = C, size = 22]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2235
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 110,
+  "Game": "Kingdomino",
+  "Test Description": "Testing tile validity",
+  "Difficulty Notes": "Testing basic (positive) validity of tile placement",
+  "Question": "Can the new domino be validly placed in the kingdom?",
+  "Answer": "Yes",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/new_domino_blue.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "gamestates/json/kingdomino/new_domino_blue.json"
+}

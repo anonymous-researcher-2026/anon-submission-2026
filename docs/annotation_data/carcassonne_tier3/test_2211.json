@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the yellow players turn, which tile should the yellow player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. Assume that 1) the yellow player does not have any meeples left and 2) in case there are multiple ways to achieve the maximum score, prefer the one that gets the opponent blue player least amount of points). Return the answer in the following format: [Tile = <selected tile>, total_points_blue = <the points by the end of this turn for blue player>, total_points_yellow = <maximum points yellow player can achieve at the end of this turn>]",
+  "Answer": "[tile = B, total_points_blue = 10, total_points_yellow = 9]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2211
+}

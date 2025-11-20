@@ -1,0 +1,15 @@
+{
+  "ID": 19,
+  "Game": "Kingdomino",
+  "Test Description": "Tests random details extraction from the game environment.",
+  "Difficulty Notes": "Model needs to identify the existence of a dragon shadow on the game board.",
+  "Question": "How many dragons are present in this scenario?",
+  "Answer": "1",
+  "Rationale": "",
+  "game_state_url": "images/kingdomino/basic_full_env.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": ""
+}

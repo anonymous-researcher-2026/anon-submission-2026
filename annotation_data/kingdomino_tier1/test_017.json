@@ -1,0 +1,15 @@
+{
+  "ID": 17,
+  "Game": "Kingdomino",
+  "Test Description": "Tests basic comprehension of the full game state / game environment.",
+  "Difficulty Notes": "Model needs to reason over the different sections of the game board.",
+  "Question": "What is the total area of the dominoes pictured? Assume that each domino is 2x1.",
+  "Answer": "28",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/basic_full_env.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "gamestates/json/kingdomino/basic_full_env.json"
+}

@@ -1,0 +1,15 @@
+{
+  "ID": 204,
+  "Game": "Kingdomino",
+  "Test Description": "Assess one-hop optimization -- selecting the best tile to add to the current game state",
+  "Difficulty Notes": "Focusing on very easy scenarios for now, where there is just one or two hops of reasoning.",
+  "Question": "Which domino should the player add to their kingdom to maximize its score? Output the following: Domino letter, Previous kingdom score, new kingdom score.",
+  "Answer": "Domino: D, Previous kingdom score: 3, New kingdom score: 9",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/kingdomino/t3_single_scoring_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "gamestates/json/kingdomino/t3_single_scoring_1.json"
+}

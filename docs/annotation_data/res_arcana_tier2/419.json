@@ -1,0 +1,17 @@
+{
+  "ID": 419,
+  "Game": "Res\u00a0Arcana",
+  "Tier": 2,
+  "Test Description": "Basic rules QA",
+  "Difficulty Notes": "Passive income rules",
+  "Question": "What essences will the player passively gain at the start of the round from the supply?",
+  "Answer": "2 Life, or, 1 Life and 1 Death.",
+  "Rationale": "",
+  "game_state_url": "images/res\u00a0arcana/t2_passive3.png",
+  "game_state_description": "",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 1,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": ""
+}

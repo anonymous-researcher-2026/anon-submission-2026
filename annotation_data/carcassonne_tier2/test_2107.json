@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many players have a score of more than 25 points according to the given scoreboard?",
+  "Answer": "2",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/players_2.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2107
+}

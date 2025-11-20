@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the blue players turn, and the player rolls the dice summing to 6. What is the maximum number of points that the blue player can earn by the end of this turn. Report the answer in the following manner: [points_before_turn = <the number of points before the current turn>, points_after_turn = <the number of points after the turn is complete>].",
+  "Answer": "[points_before_turn = 3, points_after_turn = 5]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_1.png",
+    "gamestates/images/catan/player_blue_1.png",
+    "gamestates/images/catan/player_red_1.png"
+  ],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2502
+}

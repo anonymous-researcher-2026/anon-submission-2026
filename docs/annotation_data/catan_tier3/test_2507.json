@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that it is the blue player's turn, and the player rolls the dice summing to 6, what is the maximum number of cities the blue player can have on the board by the end of this turn? Return the answer in the following format:  [cities before:<number of cities before the turn>, settlements after: <number of cities after the turn>]",
+  "Answer": "[cities before:1, cities after:3]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_2.png",
+    "gamestates/images/catan/player_blue_2.png",
+    "gamestates/images/catan/player_red_2.png"
+  ],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2507
+}

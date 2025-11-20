@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that it is the red players turn. The player chooses to place tile A on the landscape marked with position Y. After placing the tile, the red player chooses to place a red meeple on the monastery as a monk. After these two steps in this turn, how many points will the red player gain at the end of this turn's scoring?",
+  "Answer": "9",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/possible_tiles_3.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2136
+}

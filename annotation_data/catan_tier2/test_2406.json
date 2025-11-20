@@ -1,0 +1,17 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many development cards are visible in the given players gamestate?",
+  "Answer": "4",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/player_blue_2.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2406
+}

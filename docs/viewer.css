@@ -1,0 +1,215 @@
+/* Global reset */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background: #111;
+  color: #eee;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/* Top controls */
+#controls {
+  
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+label {
+  font-size: 1rem;
+}
+
+select,
+input {
+  font-size: 1rem;
+  background: #222;
+  color: #eee;
+  border-radius: 4px;
+  border: 1px solid #444;
+  padding: 8px 12px;
+}
+
+#navButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;          /* spacing between Prev + Next */
+  align-items: center; /* vertical alignment */
+}
+
+button {
+  font-size: 1rem;
+  width: 100px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  background: #444;
+  color: #eee;
+  border: 1px solid #666;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* Layout (2 columns) */
+#layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 15px;
+}
+
+/* Question section */
+#questionCard {
+  font-size: 1.2rem;
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-bottom: 12px;
+}
+
+.id-tag {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.question-label {
+  font-weight: bold;
+  color: #ff6666;
+  font-size: 1.2rem;
+}
+
+.question-text {
+  font-size: 1.2rem;      /* Bigger question body */
+  line-height: 1.8;
+}
+
+/* Answer block */
+#answerBlock {
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.answer-info {
+  margin-top: 8px;
+}
+
+.answer-info.correct {
+  color: #5fd75f;
+}
+
+.answer-info.wrong {
+  color: #ff5555;
+}
+
+details {
+  margin-top: 10px;
+}
+
+/* Right side image container */
+#imageContainer {
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#imageContainer.hidden {
+  display: none;
+}
+
+/* Multi-image layout */
+#multiImages {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Individual image block */
+.multi-img-block {
+  background: #111;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Actual image – this is the part you were tweaking */
+.multi-img-block img {
+  width: 900px;        
+  max-width: 100%;     /* don’t overflow screens */
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #bd5858;  
+  display: block;
+}
+
+/* Caption */
+.multi-img-caption {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Spinner */
+.spinner {
+  margin: 10px auto;
+  width: 38px;
+  height: 38px;
+  border: 4px solid #ddd;
+  border-top-color: #4a90e2;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Preformatted JSON */
+pre {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+.full-img-link {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #66aaff;
+  text-decoration: none;
+}
+.full-img-link:hover {
+  text-decoration: underline;
+}

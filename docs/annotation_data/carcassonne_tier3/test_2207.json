@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume that the blue player has 2 continuous turns, and the game would end after these 2 turns. Given the option tiles (A, B), what would the maximum number of points the blue player can achieve at the end of the game?",
+  "Answer": "34",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/best_tile_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2207
+}
