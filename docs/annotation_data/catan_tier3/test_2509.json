@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Suppose that the red player rolls a 7, changes the robber to a tile that has 6 numbered on mountains, and steals away one ore resource card from the blue player. Now it is the blue players turn. What is the maximum number of cities the blue player can build by the end of this turn? Assume that the gamestate given is before the stealing of the resource card. Return the answer in the following format:  [cities before:<number of cities before the turn>, cities after: <number of cities after the turn>]",
+  "Answer": "[cities before:1, cities after:2]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_2.png",
+    "gamestates/images/catan/player_blue_2.png",
+    "gamestates/images/catan/player_red_2.png"
+  ],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2509
+}

@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource, 6) consider that the blue player in total has 4 cities, 5 settlements (including ones on board). Can the blue player get victory by the end of this round, given that the player must use least amount of resource cards, and that the player rolls a 5? Return your answer in the following format: [victory: <yes if the player can declare victory, no if not>, final_resources: <[brick: <no. Of brick resource cards after the turn>, wool: <no. Of wool resource cards after the turn>], grain: <no. Of grain resource cards after the turn>, lumber: <no. Of lumber resource cards after the turn>, ore: <no. Of ore resource cards after the turn>]>]",
+  "Answer": "[victory: yes, final_resources: [brick: 1, wool: 0, grain: 0, lumber: 1, ore: 3]]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_5.png",
+    "gamestates/images/catan/player_blue_5.png",
+    "gamestates/images/catan/player_red_5.png",
+    "gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2517
+}

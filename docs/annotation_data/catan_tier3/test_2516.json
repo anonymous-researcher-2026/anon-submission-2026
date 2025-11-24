@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points, 4) can use the combined Trade/Build phase, 5)For maritime trade, a city on a special harbor grants a 1:1 trade rate for its resource, while a city on a generic harbor grants a 3:2 trade rate for any resource, 6) consider that the blue player in total has 4 cities, 5 settlements (including ones on board). What is the maximum number of cities the blue player has by the end of this turn, given that the blue player has rolled 10 in this round? Return your answer in the following format: [Old: <number of cities before this turn>, new: <number of cities after the turn>]",
+  "Answer": "[old: 2, new: 4]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_5.png",
+    "gamestates/images/catan/player_blue_5.png",
+    "gamestates/images/catan/player_red_5.png",
+    "gamestates/images/catan/player_green_5.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 3,
+  "Strategy Difficulty": 3,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2516
+}

@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assuming that it is the blue players turn, and that the game would end after this turn. Given the option tiles (A, B), which tile should the blue player choose to maximize their score at the end of the game? Answer should be in the following format: [tile = <chosen tile>, meeple_placed_as = <if a meeple is placed, how is it placed? (highwayman, knights, monks, or farmers) if not put as None>, total_points_turn = <total points at the end of the turn>, total_points_game_end = <total points at the end of the game>]",
+  "Answer": "[tile = B, meeple_placed_as = farmer, total_points_turn = 22, total_points_game_end = 31]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/best_tile_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2205
+}

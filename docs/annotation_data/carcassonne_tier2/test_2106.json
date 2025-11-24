@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "According to the given scoreboard, which player has the highest score at this point in the game?",
+  "Answer": "green",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/players_3.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2106
+}

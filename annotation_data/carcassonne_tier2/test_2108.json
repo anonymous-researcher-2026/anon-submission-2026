@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Given the landscape, what are the possible tiles a player can place in the position marked with an `X`?",
+  "Answer": "A, C",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/possible_tiles_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2108
+}

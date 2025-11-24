@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering the situation that the blue player has two turns one after the other, and that the game ends after these 2 turns. Which tiles should the blue player choose from the available tile options (A, B, C) so as to get the maximum score by the end of the 2 turns. return the answer in the following format: [total_points_turn = <the maximum points by the end of two turns>, total_points_final = <maximum number of points at the end of game>]",
+  "Answer": "[total_points_turn = 19, total_points_final = 28]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/best_tile_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2219
+}

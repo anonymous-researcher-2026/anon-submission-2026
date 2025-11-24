@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Consider that it is the blue player's turn. The blue player rolls a 2. Then the player decides to play the road building development card. the 2 rods are placed at the following positions: side in between 11:mountains and 12:pastures, and 12:pastures and 6:hills. After performing these steps how many points does the player have at the end of this round?",
+  "Answer": "6",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_3.png",
+    "gamestates/images/catan/player_blue_3.png",
+    "gamestates/images/catan/player_red_3.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2420
+}

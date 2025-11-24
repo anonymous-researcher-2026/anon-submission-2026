@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LudoBench Dataset Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 🔥 Use external CSS only -->
+    <link rel="stylesheet" href="viewer.css" />
+  </head>
+
+  <body>
+    <h1>LudoBench Dataset Viewer</h1>
+
+    <!-- Controls row -->
+    <div id="controls">
+      <label>
+        Folder:
+        <select id="folderSelect"></select>
+      </label>
+
+      <label>
+        Example:
+        <select id="fileSelect"></select>
+      </label>
+
+      <div id="navButtons">
+        <button id="prevBtn">
+          <span class="icon">◀</span><span>Prev</span>
+        </button>
+        
+        <button id="nextBtn">
+          <span>Next</span><span class="icon">▶</span>
+        </button>
+        
+      </div>
+    </div>
+
+    <!-- Main two-column layout -->
+    <div id="layout">
+      <!-- Left: question + answer UI -->
+      <div>
+        <div id="questionCard">
+          <!-- filled by viewer.js -->
+          Loading…
+        </div>
+
+        <div id="answerBlock">
+          <label for="answerInput">Your answer:</label>
+          <input id="answerInput" type="text" />
+          <button id="checkButton">Check</button>
+          <div id="answerInfo" class="answer-info"></div>
+
+          <details>
+            <summary>Show solution </summary>
+            <div id="solutionText"></div>
+          </details>
+        </div>
+      </div>
+
+      <!-- Right: images -->
+      <div>
+        <div id="imageContainer" class="image-wrapper hidden">
+          <h3>Game state</h3>
+          <div id="multiImages"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="viewer.js"></script>
+  </body>
+</html>

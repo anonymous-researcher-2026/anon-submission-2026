@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering the situation that the blue player has two turns one after the other. What is the maximum score that the blue player can score at the end of these turns? return the answer in the following format: [total_points = <the maximum points by the end of two turns>]",
+  "Answer": "[total_points = 25]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/farmers_3.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2248
+}

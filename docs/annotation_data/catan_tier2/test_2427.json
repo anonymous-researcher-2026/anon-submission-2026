@@ -1,0 +1,17 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many terrains of each type are present in the current game state? Return the answer in the following format: [<terrain_type>: <number_of_terrains>].",
+  "Answer": "[Hills: 3, forest: 4, mountains: 3, fields: 4, pastures: 4, dessert: 1]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_5.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2427
+}

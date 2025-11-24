@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding. Counting the number of dominoes in the player's kingdom.",
+  "Difficulty Notes": "Very easy counting",
+  "Question": "Assuming that the goal is to create a rectangular shape with no gaps, how many additional tiles are needed to be placed to achieve this?",
+  "Answer": "5",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/meeple_landscape_2.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 1,
+  "json_game_state_url": "",
+  "ID": 2022
+}

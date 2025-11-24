@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Considering that the red player has 2 consecutive turns, and the player rolls the dice summing to 10 the first time, what is the maximum number of points the red player can have on the board by the end of these 2 turns? Can the player declare victory? Assume that in the second turn the player rolls a 5. Return the answer in the following format: [Victory_points_before: <the victory points player has in current gamestate>, Victory_points_after: <the victory points player has after 2 turns>, victory: <true/false\u2013 if the player can declare victory or not>]",
+  "Answer": "[Victory_points_before: 6, Victory_points_after: 11, victory: true]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_2.png",
+    "gamestates/images/catan/player_blue_2.png",
+    "gamestates/images/catan/player_red_2.png"
+  ],
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2506
+}

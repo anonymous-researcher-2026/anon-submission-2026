@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Considering it is the blue players turn. The player chooses to place tile A on the landscape marked with Y. After placing the tile, the blue player would not place any meeple. After these two steps in this turn, how many points will the blue player gain at the end of this turn's scoring?",
+  "Answer": "12",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/possible_tiles_4.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2127
+}

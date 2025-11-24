@@ -1,0 +1,15 @@
+{
+  "Game": "Carcassonne",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Consider the current landscape without any placement of tiles shown. Assume that the last turn has been completed, and game has come to an end. What is the amount of points each player gets (red, blue, yellow, black) during the final score calculations? Return the answer as: [blue= <blue players final score>, red= <red players final score>, yellow= <yellow players final score>, black = <black players final score>]",
+  "Answer": "[blue= 4, red= 6, yellow= 9, black = 9]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/farmers_1.png",
+  "Game State Difficulty": 1,
+  "Rules Difficulty": 0,
+  "Strategy Difficulty": 0,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2234
+}

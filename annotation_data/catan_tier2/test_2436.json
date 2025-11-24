@@ -1,0 +1,20 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "for the given gamestate, what is the current score of each of the players? Return the answer in the following format: [<player_color>: <number of points>]. Assume that there are 3 players: red, blue, and green. Return the answer in the following format: [red: <points>, blue: <points>, green: <points>].",
+  "Answer": "[red: 5, blue: 7, green: 5]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_5.png",
+    "gamestates/images/catan/player_green_5.png",
+    "gamestates/images/catan/player_red_5.png",
+    "gamestates/images/catan/player_blue_5.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2436
+}

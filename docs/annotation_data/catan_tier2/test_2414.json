@@ -1,0 +1,17 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "How many total development cards are there in the current game state? Including the ones that are played and unplayed. Assume that no development card has been discraded yet.",
+  "Answer": "5",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/player_blue_3.png"
+  ],
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2414
+}

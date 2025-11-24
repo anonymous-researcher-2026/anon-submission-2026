@@ -1,0 +1,15 @@
+{
+  "Game": "carcassonne",
+  "Test Description": "Testing basic game understanding and rule understanding.",
+  "Difficulty Notes": "simple rule application",
+  "Question": "Suppose the game has been completed in the given landscape, what is the totals amount of points each player will get for their meeples remaining on the landscape (only report the points for the meeples on the landscape)? Provide your answer in the format [Red = <points>, Blue = <points>, Green = <points>, Yellow = <points>].",
+  "Answer": "[Red = 2, Blue = 4]",
+  "Rationale": "",
+  "game_state_url": "gamestates/images/carcassonne/meeple_landscape_1.png",
+  "Game State Difficulty": 2,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 0,
+  "tier": 2,
+  "json_game_state_url": "",
+  "ID": 2111
+}

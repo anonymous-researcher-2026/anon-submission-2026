@@ -1,0 +1,19 @@
+{
+  "Game": "Catan",
+  "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
+  "Difficulty Notes": "Easy optimization problem with intuitive solution",
+  "Question": "Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points. What is the maximum number of cities the red player can place by the end of this turn, given the player rolls an 4? Return your answer in the following format: [prev_cities: <number of cities the player has before this turn>, new_cities: <the number of cities the player has after this turn>]",
+  "Answer": "[prev_cities: 2, new_cities: 3]",
+  "Rationale": "",
+  "game_state_url": [
+    "gamestates/images/catan/board_3.png",
+    "gamestates/images/catan/player_blue_3.png",
+    "gamestates/images/catan/player_red_3.png"
+  ],
+  "Game State Difficulty": 3,
+  "Rules Difficulty": 2,
+  "Strategy Difficulty": 2,
+  "tier": 3,
+  "json_game_state_url": "",
+  "ID": 2528
+}
