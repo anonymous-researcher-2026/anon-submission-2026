@@ -2,11 +2,11 @@
   "Game": "Catan",
   "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
   "Difficulty Notes": "Easy optimization problem with intuitive solution",
-  "Question": "Suppose that the blue player rolls a 7, changes the robber to a tile that has 10 numbered on pasture. And takes away one grain resource card from the red player. Now it is the red players turn. What is the maximum number of settlements the red player can build by the end of this turn? Assume that the gamestate given is before the stealing of the resource card. Return the answer in the following format:  [settlement before:<number of settlements before the turn>, settlements after: <number of settlements after the turn>].",
-  "Answer": "[settlements before:2, settlements after:4]",
+  "Question": "Considering that the red player has 2 consecutive turns, and the player rolls the dice summing to 10 the first time, what is the maximum number of points the red player can have on the board by the end of these 2 turns? Can the player declare victory? Assume that in the second turn the player rolls a 6. Assume: 1) no-inter player trading occurs, 2) there are no development cards left to draw, 3) in-hand VP cards count as points. Return the answer in the following format: [Victory_points_before: <the victory points player has in current gamestate>, Victory_points_after: <the victory points player has after 2 turns>, victory: <true/false\u2013 if the player can declare victory or not>]",
+  "Answer": "[Victory_points_before: 8, Victory_points_after: 11, victory: true]",
   "Rationale": "",
   "game_state_url": [
-    "gamestates/images/catan/board_2.png",
+    "gamestates/images/catan/board_j.png",
     "gamestates/images/catan/player_blue_2.png",
     "gamestates/images/catan/player_red_2.png"
   ],
@@ -15,5 +15,5 @@
   "Strategy Difficulty": 0,
   "tier": 3,
   "json_game_state_url": "",
-  "ID": 2510
+  "ID": 2556
 }

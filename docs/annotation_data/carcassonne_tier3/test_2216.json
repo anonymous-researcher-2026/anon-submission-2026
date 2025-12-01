@@ -2,7 +2,7 @@
   "Game": "Carcassonne",
   "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
   "Difficulty Notes": "Easy optimization problem with intuitive solution",
-  "Question": "Considering the situation that the blue player has two turns one after the other. which tiles should the blue player choose from the available tile options (A, B, C) so as to get the maximum score by the end of the 2 turns. return the answer in the following format: [Tiles = <selected tile, selected tile>; total_points = <the maximum points by the end of two turns>]",
+  "Question": "Considering the situation that the blue player has two uninterrupted turns, one after the other. which tiles should the blue player choose from the available tile options (A, B, C) so as to get the maximum score by the end of the 2 turns. Assume the players all have multiple meeples in their private supplies. Return the answer in the following format, sorted alphabetically: [Tiles = <selected tile, selected tile>; total_points = <the maximum points gained after the two turns>]",
   "Answer": "[Tiles = A,B; total_points = 23]",
   "Rationale": "",
   "game_state_url": "gamestates/images/carcassonne/best_tile_3.png",

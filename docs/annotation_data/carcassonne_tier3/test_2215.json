@@ -2,7 +2,7 @@
   "Game": "Carcassonne",
   "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
   "Difficulty Notes": "Easy optimization problem with intuitive solution",
-  "Question": "Considering that it is the red player's turn, which tile should the red player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. return the answer in the following format: [Tile = <selected tile>, total_points = <the maximum points by the end of this turn>]",
+  "Question": "Considering that it is the red player's turn, which tile should the red player choose from the available tile options (A, B, C) so as to get the maximum score by the end of this turn. Assume the players all have multiple meeples in their private supplies. Return the answer in the following format: [Tile = <selected tile>, total_points = <the maximum points by the end of this turn>]",
   "Answer": "[tile = A, total_points = 9]",
   "Rationale": "",
   "game_state_url": "gamestates/images/carcassonne/best_tile_3.png",

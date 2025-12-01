@@ -309,7 +309,7 @@ document.getElementById("nextBtn").onclick = () => goRelative(1);
     fileSel.onchange = () => loadAndRender(fileSel.value);
 
     // initial load
-    folderSel.value = folders[0];
+    folderSel.value = "kingdomino_tier1";
     refresh();
 
   } catch (err) {

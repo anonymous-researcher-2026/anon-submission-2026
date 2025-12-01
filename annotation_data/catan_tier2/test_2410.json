@@ -2,8 +2,8 @@
   "Game": "Catan",
   "Test Description": "Testing basic game understanding and rule understanding.",
   "Difficulty Notes": "simple rule application",
-  "Question": "Suppose the blue player gains a wool resource and builds a settlement at the intersetion of hexes forest (with number 3), pasture (with number 10), and hills (with number 8), How many points does the blue player have after performing this action?",
-  "Answer": "6",
+  "Question": "Suppose the blue player gains a wool resource and builds a settlement at the intersetion of hexes mountain (with number 5), pasture (with number 10), and hills (with number 8), How many points does the blue player have after performing this action?",
+  "Answer": "4",
   "Rationale": "",
   "game_state_url": [
     "gamestates/images/catan/player_blue_1.png",

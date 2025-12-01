@@ -2,8 +2,8 @@
   "Game": "Catan",
   "Test Description": "Testing basic game understanding and rule understanding.",
   "Difficulty Notes": "simple rule application",
-  "Question": "What is the total number of victory points the red player has in the given game state?",
-  "Answer": "6",
+  "Question": "What is the total number of victory points the red player has if the game ended in this state?",
+  "Answer": "8",
   "Rationale": "",
   "game_state_url": [
     "gamestates/images/catan/board_2.png",

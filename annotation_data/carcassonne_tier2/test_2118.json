@@ -2,7 +2,7 @@
   "Game": "carcassonne",
   "Test Description": "Testing basic game understanding and rule understanding.",
   "Difficulty Notes": "simple rule application",
-  "Question": "How many points do each player gain at the end of this turn, after placing the C tile in the position marked with an `X`? Provide your answer in the format [Blue = <points>, Yellow = <points>].",
+  "Question": "How many points do each player gain at the end of this turn, assuming the C tile is placed in position`X`? Provide your answer in the format [Blue = <points>, Yellow = <points>].",
   "Answer": "[Blue = 12, Yellow = 9]",
   "Rationale": "",
   "game_state_url": "gamestates/images/carcassonne/possible_tiles_3.png",

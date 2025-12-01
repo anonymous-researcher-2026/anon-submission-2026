@@ -2,7 +2,7 @@
   "Game": "Carcassonne",
   "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
   "Difficulty Notes": "Easy optimization problem with intuitive solution",
-  "Question": "Considering that it is the blue players turn, which tile should the blue player choose from the available tile options (A, B) so as to get the maximum score by the end of this turn and make sure that the red player does not earn any points in this turn. return the answer in the following format: [Tile = <selected tile>, total_points = <the maximum points by the end of this turn>]",
+  "Question": "Considering that it is the blue players turn, which tile should the blue player choose from the available tile options (A, B) so as to get the maximum score by the end of this turn but first and foremost that the red player does not earn any points in this turn because of blue's selection. Assume the players all have multiple meeples in their private supplies. Return the answer in the following format: [Tile = <selected tile>, total_points = <the maximum points by the end of this turn>]",
   "Answer": "[Tile = B, total_points = 16]",
   "Rationale": "",
   "game_state_url": "gamestates/images/carcassonne/farmers_3.png",

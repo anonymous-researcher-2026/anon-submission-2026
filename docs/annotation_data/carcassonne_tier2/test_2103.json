@@ -3,7 +3,7 @@
   "Test Description": "Testing basic game understanding and rule understanding.",
   "Difficulty Notes": "simple rule application",
   "Question": "How many tiles are surrounding the monastery in the given landscape?",
-  "Answer": "1",
+  "Answer": "2",
   "Rationale": "",
   "game_state_url": "gamestates/images/carcassonne/features_1.png",
   "Game State Difficulty": 2,

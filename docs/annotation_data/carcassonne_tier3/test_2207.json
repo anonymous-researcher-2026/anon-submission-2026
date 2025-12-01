@@ -2,7 +2,7 @@
   "Game": "Carcassonne",
   "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
   "Difficulty Notes": "Easy optimization problem with intuitive solution",
-  "Question": "Assume that the blue player has 2 continuous turns, and the game would end after these 2 turns. Given the option tiles (A, B), what would the maximum number of points the blue player can achieve at the end of the game?",
+  "Question": "Assume that the blue player has 2 continuous turns, and the game would end after these 2 turns. Given the option tiles (A, B), what would the maximum number of points the blue player can achieve at the end of the game? Assume the players all have multiple meeples in their private supplies.",
   "Answer": "34",
   "Rationale": "",
   "game_state_url": "gamestates/images/carcassonne/best_tile_2.png",

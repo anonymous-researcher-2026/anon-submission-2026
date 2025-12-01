@@ -2,7 +2,7 @@
   "Game": "Carcassonne",
   "Test Description": "Testing ability to optimize moves or scoring for a given game state and trying to have a grounded rule application",
   "Difficulty Notes": "Easy optimization problem with intuitive solution",
-  "Question": "Given that it is the blue players turn. Given the different tile options (A, B, C), which tile should the blue player choose in order to maximize thier score at the end of this turn? Also provide the total points the blue player would have after placing this tile. Give your answer in the format: [Tile = <chosen tile>, Total_Points = <total points after placing the tile>]",
+  "Question": "Given that it is the blue players turn. Given the different tile options (A, B, C), which tile should the blue player choose in order to maximize their score at the end of this turn? Give your answer in the format: [Tile = <chosen tile>, Total_Points = <total points gained during end-of-turn scoring>].",
   "Answer": "[Tile = A, Total_Points = 10]",
   "Rationale": "",
   "game_state_url": "gamestates/images/carcassonne/best_tile_1.png",
